@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalyst_Academy.Server", "Catalyst_Academy.Server\Catalyst_Academy.Server.csproj", "{1D6A9105-D19A-42E4-81D7-B2B815F4ADE1}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "catalyst_academy.client", "catalyst_academy.client\catalyst_academy.client.esproj", "{65AAB403-6A7D-4066-B05D-B1AFB892FA1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D6A9105-D19A-42E4-81D7-B2B815F4ADE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6A9105-D19A-42E4-81D7-B2B815F4ADE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6A9105-D19A-42E4-81D7-B2B815F4ADE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6A9105-D19A-42E4-81D7-B2B815F4ADE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65AAB403-6A7D-4066-B05D-B1AFB892FA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65AAB403-6A7D-4066-B05D-B1AFB892FA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65AAB403-6A7D-4066-B05D-B1AFB892FA1B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{65AAB403-6A7D-4066-B05D-B1AFB892FA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65AAB403-6A7D-4066-B05D-B1AFB892FA1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65AAB403-6A7D-4066-B05D-B1AFB892FA1B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11145705-D44F-4B08-81EA-9D5E9B194ECC}
+	EndGlobalSection
+EndGlobal
