@@ -49,7 +49,7 @@
                               </ul><!-- /.sub-menu -->
                           </li>
                           <li>
-                              <a href="#">About us</a>
+                              <router-link to="/about">About us</router-link>
                           </li>
                           <li>
                               <nuxt-link to="/courses">Courses</nuxt-link>

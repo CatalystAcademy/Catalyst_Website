@@ -34,7 +34,6 @@
     import BannerOne from './components/BannerOne.vue'
     import AboutTwo from './components/AboutTwo.vue'
     import Footer from './components/Footer.vue'
-
      
 
     export default {

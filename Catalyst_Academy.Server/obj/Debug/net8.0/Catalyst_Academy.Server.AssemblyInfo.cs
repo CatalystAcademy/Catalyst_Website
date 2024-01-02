@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Catalyst_Academy.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25ee74dba503347986eb6912f279f79f3c85c45a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Catalyst_Academy.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Catalyst_Academy.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

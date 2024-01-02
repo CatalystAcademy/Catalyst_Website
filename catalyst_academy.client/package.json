@@ -6,7 +6,9 @@
     "@vitejs/plugin-vue": "^4.5.2",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
-    "vite": "^5.0.10"
+    "vite": "^5.0.10",
+    "vue-router": "^4.0.0",
+    "nuxt": "^3.0.0"
   },
   "name": "catalyst_academy.client",
   "private": true,
