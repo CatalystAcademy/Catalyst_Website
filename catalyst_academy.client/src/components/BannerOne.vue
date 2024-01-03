@@ -14,8 +14,8 @@
                               We Can <br>
                               Teach You
                           </h3>--><!-- /.banner-one__title -->
-                          <p class="banner-one__tag-line">are you ready to learn?</p><!-- /.banner-one__tag-line -->
-                          <a href="#" class="thm-btn banner-one__btn">Learn More</a>
+                          <p class="banner-one__tag-line">{{ loadedTexts['welcome_message'].Value }}</p><!-- /.banner-one__tag-line -->
+                          <a href="#" class="thm-btn banner-one__btn">{{ loadedTexts['learn_more'].Value }}</a>
                       </div><!-- /.col-xl-12 -->
                   </div><!-- /.row -->
               </div><!-- /.container -->
@@ -61,8 +61,14 @@
 </template>
 
 <script>
+    import texts from "../assets/texts.json"
     export default {
-        name: "BannerOne"
+        name: "BannerOne",
+        data() {
+            return {
+                loadedTexts: texts,
+            };
+        },
     }
 </script>
 

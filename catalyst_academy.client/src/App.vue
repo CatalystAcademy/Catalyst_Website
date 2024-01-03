@@ -5,6 +5,7 @@
             <nuxt />
         </div>
         <NavOne />
+<!--        <LanguageSwitcher /> -->        
         <BannerOne />
         <AboutTwo />
         <CourseOne />
@@ -22,6 +23,7 @@
 
 <script>
     import NavOne from './components/NavOne.vue'
+    // import LanguageSwitcher from './components/LanguageSwitcher.vue'
     import Subscribe from './components/Subscribe.vue'
     import CallToActionFour from './components/CallToActionFour.vue'
     import BlogCarousel from './components/BlogCarousel.vue'
@@ -39,6 +41,7 @@
     export default {
         components: {
             Subscribe,
+            // LanguageSwitcher,
             CallToActionFour,
             BlogCarousel,
             ClientsLogoTwo,
@@ -54,7 +57,7 @@
         },
         head() {
             return {
-                title: "Kipso - Vue Nuxt Online Education Learning & LMS Template"
+                title: "Catalyst Academy"
             }
         },
         mounted() {

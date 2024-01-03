@@ -37,7 +37,8 @@
                                   <li><a href="/">Home 01</a></li>
                                   <li><a href="/index-2">Home 02</a></li>
                                   <li><a href="/index-3">Home 03</a></li>
-                                  <li><a href="#">Header Versions</a>
+                                  <li>
+                                      <a href="#">Header Versions</a>
                                       <ul class="sub-menu">
                                           <li><a href="/">Header 01</a></li>
                                           <li><a href="/index-2">Header 02</a></li>
@@ -77,8 +78,10 @@
                       </ul>
                   </div><!-- /.navbar-collapse -->
                   <div class="right-side-box">
-                      <a class="header__search-btn search-popup__toggler" href="#"><i class="kipso-icon-magnifying-glass"></i>
-                          <!-- /.kipso-icon-magnifying-glass --></a>
+                      <a class="header__search-btn search-popup__toggler" href="#">
+                          <i class="kipso-icon-magnifying-glass"></i>
+                          <!-- /.kipso-icon-magnifying-glass -->
+                      </a>
                   </div><!-- /.right-side-box -->
               </div>
               <!-- /.container -->
