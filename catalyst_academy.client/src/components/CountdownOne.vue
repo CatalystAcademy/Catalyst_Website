@@ -26,8 +26,10 @@
                     </div><!-- /.become-teacher__top -->
                     <form action="../assets/inc/sendemail.php" class="become-teacher__form-content contact-form-validated">
                         <input type="text" placeholder="Your Name" name="name">
+                        <input type="text" placeholder="Parent Name" name="name">
                         <input type="text" placeholder="Email Address" name="email">
                         <input type="text" placeholder="Phone Number" name="phone">
+                        <input type="text" placeholder="Parent Phone Number" name="phone">
                         <input type="text" placeholder="Comment" name="message">
                         <button type="submit" class="thm-btn become-teacher__form-btn">Apply For It</button>
                     </form><!-- /.become-teacher__form-content -->
