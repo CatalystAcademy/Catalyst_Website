@@ -21,10 +21,8 @@
                           <img src="../assets/images/CA_Logo.png" class="main-logo" width="128" alt="Awesome Image" />
                       </a>
                       <div class="header__social">
-                          <a href="#"><i class="fab fa-twitter"></i></a>
-                          <a href="#"><i class="fab fa-facebook-square"></i></a>
-                          <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                          <a href="#"><i class="fab fa-instagram"></i></a>
+                          <a href="https://www.facebook.com/profile.php?id=100092001189089&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                          <a href="https://www.instagram.com/catalystsacademy?igsh=ZGNjOWZkYTE3MQ==" target="_blank"><i class="fab fa-instagram"></i></a>
                       </div><!-- /.header__social -->
                       <button class="menu-toggler" data-target=".main-navigation">
                           <span class="kipso-icon-menu"></span>
@@ -39,7 +37,8 @@
                                   <li><a href="/">Home 01</a></li>
                                   <li><a href="/index-2">Home 02</a></li>
                                   <li><a href="/index-3">Home 03</a></li>
-                                  <li><a href="#">Header Versions</a>
+                                  <li>
+                                      <a href="#">Header Versions</a>
                                       <ul class="sub-menu">
                                           <li><a href="/">Header 01</a></li>
                                           <li><a href="/index-2">Header 02</a></li>
@@ -79,8 +78,10 @@
                       </ul>
                   </div><!-- /.navbar-collapse -->
                   <div class="right-side-box">
-                      <a class="header__search-btn search-popup__toggler" href="#"><i class="kipso-icon-magnifying-glass"></i>
-                          <!-- /.kipso-icon-magnifying-glass --></a>
+                      <a class="header__search-btn search-popup__toggler" href="#">
+                          <i class="kipso-icon-magnifying-glass"></i>
+                          <!-- /.kipso-icon-magnifying-glass -->
+                      </a>
                   </div><!-- /.right-side-box -->
               </div>
               <!-- /.container -->

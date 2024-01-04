@@ -1,13 +1,15 @@
 <template>
   <section class="video-two">
       <div class="container">
-          <img src="../assets/images/scratch-1-1.png" class="video-two__scratch" alt="">
+          <img src="../assets/images/influencer.png" class="video-two__scratch" alt="">
           <div class="row">
               <div class="col-lg-7">
                   <div class="video-two__content">
-                      <h2 class="video-two__title">Kipso one & only <br>
+                      <h2 class="video-two__title">
+                          Catalyst Academy one & only <br>
                           mission is to extend <br>
-                          your knowledge base</h2><!-- /.video-two__title -->
+                          your knowledge base
+                      </h2><!-- /.video-two__title -->
                       <a href="#" class="thm-btn">Learn More</a><!-- /.thm-btn -->
                   </div><!-- /.video-two__content -->
               </div><!-- /.col-lg-7 -->

@@ -6,14 +6,16 @@
                   <div class="banner-one__bubble-1"></div><!-- /.banner-one__bubble- -->
                   <div class="banner-one__bubble-2"></div><!-- /.banner-one__bubble- -->
                   <div class="banner-one__bubble-3"></div><!-- /.banner-one__bubble- -->
-                  <img src="../assets/images/slider-1-scratch.png" alt="" class="banner-one__scratch">
-                  <img src="../assets/images/slider-1-person-1.png" class="banner-one__person" alt="">
+                  <img src="../assets/images/creative.png" alt="" class="banner-one__scratch">
+                  <img src="../assets/images/I_am_catalyst.png" class="banner-one__person" alt="">
                   <div class="row no-gutters">
                       <div class="col-xl-12">
-                          <h3 class="banner-one__title banner-one__light-color">We Can <br>
-                              Teach You</h3><!-- /.banner-one__title -->
-                          <p class="banner-one__tag-line">are you ready to learn?</p><!-- /.banner-one__tag-line -->
-                          <a href="#" class="thm-btn banner-one__btn">Learn More</a>
+                         <!-- <h3 class="banner-one__title banner-one__light-color">
+                              We Can <br>
+                              Teach You
+                          </h3>--><!-- /.banner-one__title -->
+                          <p class="banner-one__tag-line">{{ loadedTexts['welcome_message'].Value }}</p><!-- /.banner-one__tag-line -->
+                          <a href="#" class="thm-btn banner-one__btn">{{ loadedTexts['learn_more'].Value }}</a>
                       </div><!-- /.col-xl-12 -->
                   </div><!-- /.row -->
               </div><!-- /.container -->
@@ -23,12 +25,14 @@
                   <div class="banner-one__bubble-1"></div><!-- /.banner-one__bubble- -->
                   <div class="banner-one__bubble-2"></div><!-- /.banner-one__bubble- -->
                   <div class="banner-one__bubble-3"></div><!-- /.banner-one__bubble- -->
-                  <img src="../assets/images/slider-1-scratch.png" alt="" class="banner-one__scratch">
-                  <img src="../assets/images/slider-1-person-2.png" class="banner-one__person" alt="">
+                  <img src="../assets/images/hastatakam.png" alt="" class="banner-one__scratch">
+                  <img src="../assets/images/catalyst_changes.png" class="banner-one__person" alt="">
                   <div class="row no-gutters">
                       <div class="col-xl-12">
-                          <h3 class="banner-one__title banner-one__light-color">We Can <br>
-                              Teach You</h3><!-- /.banner-one__title -->
+                          <!--<h3 class="banner-one__title banner-one__light-color">
+                              We Can <br>
+                              Teach You
+                          </h3>--><!-- /.banner-one__title -->
                           <p class="banner-one__tag-line">are you ready to learn?</p><!-- /.banner-one__tag-line -->
                           <a href="#" class="thm-btn banner-one__btn">Learn More</a>
                       </div><!-- /.col-xl-12 -->
@@ -57,8 +61,14 @@
 </template>
 
 <script>
+    import texts from "../assets/texts.json"
     export default {
-        name: "BannerOne"
+        name: "BannerOne",
+        data() {
+            return {
+                loadedTexts: texts,
+            };
+        },
     }
 </script>
 

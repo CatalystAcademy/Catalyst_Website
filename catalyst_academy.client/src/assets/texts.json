@@ -1,0 +1,14 @@
+{
+  "error_message": {
+    "en": "An error occurred. Please try again later.",
+    "Comment": "This text is shown when an error happens."
+  },
+  "welcome_message": {
+    "Value": "are you ready to learn?",
+    "Comment": "This text is displayed on the slider of the homepage."
+  },
+  "learn_more": {
+    "Value": "Learn More",
+    "Comment": ""
+  }
+}
