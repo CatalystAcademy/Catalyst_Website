@@ -1,2 +1,3 @@
 C:\Users\paruyr.tsaturyan\source\repos\Catalyst_Academy\catalyst_academy.client\obj\Debug\catalyst_academy.client.esproj.CoreCompileInputs.cache
 C:\Users\paruyr.tsaturyan\Source\Repos\Catalyst_Website\catalyst_academy.client\obj\Debug\catalyst_academy.client.esproj.CoreCompileInputs.cache
+C:\Users\karen.sargsyan\source\github\Catalyst_Website\catalyst_academy.client\obj\Debug\catalyst_academy.client.esproj.CoreCompileInputs.cache
