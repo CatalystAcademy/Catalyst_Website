@@ -61,10 +61,10 @@
             }
         },
         mounted() {
-/*            this.$nextTick(() => {
+            this.$nextTick(() => {
                 this.$nuxt.$loading.start()
                 setTimeout(() => this.$nuxt.$loading.finish(), 500)
-            })*/
+            })
 
             if ($('.stricky').length) {
                 $('.stricky').addClass('original').clone(true).insertAfter('.stricky').addClass('stricked-menu').removeClass('original');
@@ -260,8 +260,8 @@
                         dots: true,
                         autoWidth: false,
                         autoplay: true,
-                        smartSpeed: 700,
-                        autoplayTimeout: 5000,
+                        smartSpeed: 1000,
+                        autoplayTimeout: 10000,
                         autoplayHoverPause: true,
                         responsive: {
                             0: {
@@ -573,7 +573,7 @@
 
                 if ($('.countdown-one__list').length) {
                     $('.countdown-one__list').countdown({
-                        date: "June 7, 2020 15:03:25",
+                        date: "June 7, 2024 15:03:25",
                         render: function (date) {
                             this.el.innerHTML =
                                 "<li> <div class='days'> <i>" + date.days + "</i> <span>Days</span> </div> </li>" +

@@ -6,7 +6,7 @@
                   <div class="banner-one__bubble-1"></div><!-- /.banner-one__bubble- -->
                   <div class="banner-one__bubble-2"></div><!-- /.banner-one__bubble- -->
                   <div class="banner-one__bubble-3"></div><!-- /.banner-one__bubble- -->
-                  <img src="../assets/images/creative.png" alt="" class="banner-one__scratch">
+                  <img src="../assets/images/I_am_catalyst.png" alt="" class="banner-one__scratch">
                   <img src="../assets/images/I_am_catalyst.png" class="banner-one__person" alt="">
                   <div class="row no-gutters">
                       <div class="col-xl-12">

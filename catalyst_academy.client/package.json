@@ -1,14 +1,16 @@
 {
   "dependencies": {
-    "vue": "^3.3.11"
+    "jquery": "^3.7.1",
+    "vue": "^3.3.11",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
+    "nuxt": "^3.9.0",
     "vite": "^5.0.10",
-    "vue-router": "^4.0.0",
-    "nuxt": "^3.0.0"
+    "vue-router": "^4.2.5"
   },
   "name": "catalyst_academy.client",
   "private": true,

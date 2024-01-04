@@ -48,13 +48,15 @@
                               </ul><!-- /.sub-menu -->
                           </li>
                           <li>
-                              <router-link to="/about">About us</router-link>
+                              <router-link :to="{ name: 'About_us' }">About us</router-link>
+<!--                              <router-link :to="{ name: 'Program' }">Program</router-link>
+-->                              <!--<router-view />-->
                           </li>
                           <li>
                               <nuxt-link to="/courses">Courses</nuxt-link>
                               <ul class="sub-menu">
-                                  <li><nuxt-link to="/courses">Courses</nuxt-link></li>
-                                  <li><nuxt-link to="/course-details">Course Details</nuxt-link></li>
+                                  <li><a href="/courses">Courses</a></li>
+                                  <li><a href="/course-details">Course Details</a></li>
                               </ul><!-- /.sub-menu -->
                           </li>
                           <li>

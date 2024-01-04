@@ -4,8 +4,8 @@ import Home from './App.vue';
 import About from './Pages/About.vue';
 
 const routes = [
-    { path: '/', component: Home },
-    { path: '/about', component: About },
+    { path: '/', name: 'Home', component: Home },
+    { path: '/about', name: 'About_us', component: About },
     // Add more routes as needed
 ];
 
